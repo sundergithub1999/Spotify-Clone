@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.left-banner {
+    background: url(image/banner1.svg);
+    height: 300px;
+
+}
+
+.left-banner img {
+    width: 250px;
+    height: 200px;
+    margin: 40px 0 40px 60px;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.left-banner h1 {
+    margin: 100px 0 0 400px;
+    opacity: 0.7;
+    position: absolute;
+
+}
+
+.left-banner p {
+    margin: 140px 0 200px 400px;
+    padding: 10px;
+    position: absolute;
+    opacity: 0.9;
+
+}
+
+.main-content {
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+table {
+    text-align: left;
+    color: gray;
+}
+
+.song-number {
+    width: 60px;
+    border-bottom: 2px solid gray;
+}
+
+.song-title {
+    width: 800px;
+    border-bottom: 2px solid gray;
+}
+
+.song-artist {
+    width: 400px;
+    border-bottom: 2px solid gray;
+}
+
+.song-duration {
+    width: 100px;
+    border-bottom: 2px solid gray;
+}
+
+th {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+td {
+    padding: 1.2rem;
+}
+
+tr {
+    font-size: 1.2rem;
+}
+
+tr:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.controls img{
+    width: 70px;
+    margin: 20px 0 10px 0 ;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
+
+.controls img:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgba(255,255,255,0.9);
+    border-radius: 50%;
+}
+
+/* This css property is directly used in javascript */
+.highlight{
+    color: antiquewhite; 
+}
+
